@@ -1,0 +1,51 @@
+﻿id,teams,previous_experience,hobbies,sports
+emp_001,team_02,Expert.,"reading, gardening, yoga",tennis
+emp_002,team_01,Novice.,"arts and crafts, yoga",volleyball
+emp_003,team_03,Advanced beginner.,"running, hiking, photography",volleyball
+emp_004,team_04,Competent.,"arts and crafts, photography",tennis
+emp_005,team_05,Proficient.,"reading, journalising, music",swimming
+emp_006,team_05,Expert.,"reading, music, yoga",tennis
+emp_007,team_03,Competent.,"fitness, running, gardening",swimming
+emp_008,team_02,Proficient.,"volunteering, cooking, baking",golf
+emp_009,team_02,Novice.,"hiking, cycling, outdoor activities",cricket
+emp_010,team_01,Advanced beginner.,"arts and crafts, photography",football
+emp_011,team_01,Novice.,"fitness, running, gardening",volleyball
+emp_012,team_02,Advanced beginner.,"reading, traveling, blogging",basketball
+emp_013,team_05,Competent.,"reading, blogging, journalising",swimming
+emp_014,team_04,Proficient.,"fitness, running, cooking",swimming
+emp_015,team_01,Expert.,"reading, music, yoga",swimming
+emp_016,team_04,Competent.,"fitness, running, cooking",basketball
+emp_017,team_03,Expert.,"traveling, photography",cricket
+emp_018,team_05,Proficient.,"traveling, journalising, music",tennis
+emp_019,team_01,Novice.,"hiking, cycling, outdoor activities",volleyball
+emp_020,team_02,Expert.,"traveling, photography",volleyball
+emp_021,team_03,Novice.,"arts and crafts, photography",tennis
+emp_022,team_04,Advanced beginner.,"fitness, running, gardening",swimming
+emp_023,team_01,Competent.,"reading, traveling, blogging",cricket
+emp_024,team_04,Competent.,"arts and crafts, reading, yoga",swimming
+emp_025,team_03,Competent.,"running, yoga, music, journalising",swimming
+emp_026,team_05,Novice.,"volunteering, cooking, photography",football
+emp_027,team_01,Advanced beginner.,"hiking, photography, outdoor activities",tennis
+emp_028,team_04,Competent.,"reading, blogging, journalising",tennis
+emp_029,team_03,Novice.,"fitness, running, gardening",tennis
+emp_030,team_03,Competent.,"reading, traveling, blogging",basketball
+emp_031,team_02,Competent.,"reading, music, yoga",tennis
+emp_032,team_05,Competent.,"traveling, photography",tennis
+emp_033,team_03,Advanced beginner.,"fitness, yoga, cooking, baking",volleyball
+emp_034,team_03,Competent.,"running, yoga, music, blogging",volleyball
+emp_035,team_05,Novice.,"volunteering, cooking, baking",tennis
+emp_036,team_01,Advanced beginner.,"hiking, photography, running",football
+emp_037,team_04,Competent.,"reading, blogging, journalising",tennis
+emp_038,team_03,Novice.,"fitness, running, gardening, music",tennis
+emp_039,team_03,Competent.,"reading, traveling, blogging",tennis
+emp_040,team_02,Competent.,"reading, music, yoga",volleyball
+emp_041,team_05,Competent.,"traveling, photography",football
+emp_042,team_03,Advanced beginner.,"fitness, running, cooking",football
+emp_043,team_02,Expert.,"reading, gardening, yoga",tennis
+emp_044,team_01,Novice.,"arts and crafts, yoga",volleyball
+emp_045,team_03,Advanced beginner.,"running, hiking, photography",volleyball
+emp_046,team_04,Competent.,"arts and crafts, photography",tennis
+emp_047,team_05,Proficient.,"reading, journalising, music",swimming
+emp_048,team_05,Expert.,"reading, music, yoga",tennis
+emp_049,team_03,Competent.,"fitness, running, gardening",swimming
+emp_050,team_03,Advanced beginner.,"fitness, music, cooking",swimming

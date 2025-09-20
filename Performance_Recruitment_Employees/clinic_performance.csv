@@ -1,0 +1,633 @@
+EmpNumber,Age,Gender,MaritalStatus,EmpJobRole,DistanceFromHomeKm,EmpEnvironmentSatisfaction,EmpHourlyRate,EmpJobInvolvement,EmpJobSatisfaction,OverTime,EmpLastSalaryHikePercent,EmpRelationshipSatisfaction,TotalWorkExperienceInYears,EmpWorkLifeBalance,ExperienceYearsInCurrentRole,YearsSinceLastPromotion,Attrition,PerformanceRating
+E1001000,32,Male,Single,Critical care nurse,10,4,55,3,4,No,12,4,10,2,7,0,No,3
+E1001006,47,Male,Single,Critical care nurse,14,4,42,3,1,No,12,4,20,3,7,1,No,3
+E1001007,40,Male,Married,Critical care nurse,5,4,48,2,1,Yes,21,3,20,3,13,1,No,4
+E1001009,41,Male,Divorced,Gerontological nurse,10,2,73,2,4,No,15,2,23,2,6,12,No,3
+E1001010,60,Male,Single,Critical care nurse,16,1,84,3,1,No,14,4,10,3,2,2,No,3
+E1001024,47,Female,Divorced,Critical care nurse,3,4,49,3,3,Yes,12,4,28,2,2,11,No,3
+E1001025,30,Male,Divorced,Critical care nurse,27,3,99,3,4,No,23,4,10,2,7,7,No,4
+E1001054,52,Male,Married,Gerontological nurse,3,3,31,2,1,No,11,1,34,4,6,1,No,4
+E1001059,25,Female,Single,Critical care nurse,26,3,32,3,4,No,23,2,6,2,5,1,No,4
+E1001063,47,Female,Single,Critical care nurse,27,2,77,4,3,Yes,12,4,8,3,4,1,Yes,3
+E1001064,34,Male,Single,Critical care nurse,2,4,60,3,4,No,22,3,6,3,5,1,No,4
+E1001067,36,Male,Single,Critical care nurse,8,1,76,2,1,No,15,2,10,3,7,0,No,3
+E1001074,26,Male,Single,Critical care nurse,8,4,38,2,1,No,17,3,6,2,3,1,Yes,3
+E1001078,27,Male,Married,Critical care nurse,8,3,84,3,4,No,19,2,5,3,2,1,No,3
+E1001086,34,Female,Married,Critical care nurse,8,3,93,3,1,No,17,2,6,3,2,1,No,3
+E1001097,33,Female,Single,Critical care nurse,16,1,69,3,1,No,15,3,6,3,2,0,Yes,3
+E1001118,49,Female,Married,Critical care nurse,11,3,43,3,4,No,18,1,9,4,8,7,Yes,3
+E1001120,55,Male,Single,Critical care nurse,2,3,37,3,4,No,16,3,12,2,7,7,Yes,3
+E1001124,28,Female,Married,Critical care nurse,2,2,81,3,2,Yes,20,1,8,3,7,7,No,3
+E1001129,51,Female,Married,Gerontological nurse,26,1,66,3,3,No,14,3,29,2,6,4,No,3
+E1001135,36,Male,Married,Critical care nurse,1,2,56,3,4,Yes,14,4,18,2,14,4,No,3
+E1001140,53,Female,Married,Critical care nurse,7,1,78,2,4,Yes,18,4,35,3,2,0,No,3
+E1001142,45,Male,Divorced,Critical care nurse,9,4,74,3,1,Yes,12,3,18,3,4,0,No,3
+E1001146,37,Male,Divorced,Critical care nurse,16,4,66,2,3,No,19,4,9,3,0,0,No,3
+E1001157,25,Male,Married,Critical care nurse,3,3,98,3,1,Yes,18,4,5,3,3,0,No,3
+E1001167,32,Male,Married,Critical care nurse,5,2,48,3,2,No,14,4,10,3,8,5,No,3
+E1001175,53,Male,Married,Critical care nurse,8,1,73,3,4,No,14,3,28,3,0,2,No,3
+E1001181,47,Female,Married,Critical care nurse,2,3,35,3,4,Yes,22,1,8,3,6,7,No,4
+E1001182,37,Male,Single,Critical care nurse,19,1,32,3,2,Yes,13,4,10,3,0,0,No,3
+E1001214,42,Female,Single,Critical care nurse,14,3,68,2,3,No,17,1,10,3,4,0,No,3
+E1001225,31,Female,Married,Critical care nurse,20,4,45,3,3,No,13,4,9,2,8,0,No,3
+E1001245,36,Male,Married,Critical care nurse,3,3,51,2,4,Yes,11,1,16,3,7,3,Yes,3
+E1001248,37,Male,Married,Critical care nurse,1,1,46,2,3,No,11,3,17,1,1,11,Yes,2
+E1001253,35,Female,Married,Critical care nurse,18,3,86,3,3,No,16,2,5,3,2,1,No,3
+E1001259,53,Male,Divorced,Gerontological nurse,2,3,45,3,3,No,13,3,22,4,13,15,No,3
+E1001260,30,Male,Divorced,Critical care nurse,8,3,62,3,3,No,11,1,10,4,4,7,No,3
+E1001262,35,Male,Divorced,Critical care nurse,3,4,92,3,4,No,13,2,12,3,9,0,No,3
+E1001263,39,Male,Single,Critical care nurse,2,1,41,4,3,No,18,4,9,3,7,0,No,3
+E1001264,40,Female,Single,Critical care nurse,24,2,100,4,2,Yes,16,4,22,2,0,0,Yes,3
+E1001268,36,Male,Divorced,Critical care nurse,8,1,84,3,4,No,13,4,12,3,7,0,No,3
+E1001270,33,Male,Single,Gerontological nurse,17,4,38,3,3,No,11,4,10,3,8,6,No,3
+E1001281,47,Female,Single,Critical care nurse,4,4,83,3,4,Yes,17,3,9,3,0,0,No,3
+E1001288,35,Male,Divorced,Health Informatics,14,3,39,2,2,Yes,24,4,5,1,2,0,Yes,3
+E1001289,31,Female,Married,Nurse Anesthetist,1,3,96,3,1,No,12,3,4,3,3,0,No,3
+E1001292,35,Female,Divorced,Healthcare Representative,25,3,57,3,3,Yes,11,3,16,2,10,10,No,3
+E1001297,22,Male,Married,Health Informatics,8,2,94,1,1,No,15,1,4,2,3,1,No,2
+E1001300,48,Male,Single,Healthcare Representative,6,1,97,2,3,No,13,4,19,3,2,2,No,2
+E1001303,41,Female,Single,Nurse Anesthetist,7,4,42,3,3,No,14,2,8,3,2,2,No,3
+E1001304,39,Female,Married,Nurse Anesthetist,1,4,65,2,4,No,16,3,21,3,6,11,No,3
+E1001306,35,Male,Divorced,Health Informatics,10,2,45,3,4,No,20,1,3,2,2,1,No,2
+E1001307,42,Male,Married,Gerontological nurse,5,4,90,3,3,No,13,2,21,4,0,0,No,4
+E1001308,50,Male,Married,Health Informatics,9,1,64,3,4,No,18,2,8,3,0,0,No,3
+E1001310,59,Female,Single,Nurse Anesthetist,2,3,69,2,4,Yes,13,1,30,3,3,4,No,3
+E1001312,55,Male,Married,Healthcare Representative,18,3,62,3,2,Yes,14,4,17,3,7,6,No,3
+E1001314,38,Male,Single,Critical care nurse,3,2,42,3,4,Yes,12,3,19,3,0,0,No,3
+E1001315,26,Male,Single,Critical care nurse,29,2,79,1,1,No,18,4,7,3,2,2,Yes,2
+E1001316,52,Female,Married,Gerontological nurse,2,1,57,1,4,No,15,4,33,3,14,6,Yes,2
+E1001317,44,Female,Married,Critical care nurse,28,4,53,4,4,Yes,18,3,23,3,11,11,No,3
+E1001318,50,Female,Married,Critical care nurse,1,4,95,3,3,No,12,1,19,3,7,0,No,3
+E1001321,39,Female,Single,Nurse Anesthetist,22,4,82,3,1,Yes,13,3,21,3,6,2,No,3
+E1001323,45,Female,Married,Gerontological nurse,11,4,90,3,4,No,13,2,26,4,3,1,No,3
+E1001325,34,Male,Divorced,Critical care nurse,1,2,75,4,4,No,11,4,16,2,1,0,No,3
+E1001326,59,Male,Married,Gerontological nurse,1,2,66,3,4,Yes,14,3,14,1,4,0,No,3
+E1001330,36,Male,Divorced,Health Informatics,15,1,81,3,3,No,14,2,9,2,0,0,Yes,3
+E1001340,37,Female,Single,Healthcare Representative,3,4,35,3,2,No,15,1,8,2,3,0,No,3
+E1001344,40,Male,Married,Critical care nurse,26,3,74,3,1,No,14,2,8,2,7,7,No,3
+E1001348,54,Female,Married,Critical care nurse,2,3,41,2,3,No,11,2,13,3,4,7,No,3
+E1001351,36,Female,Single,Nurse Anesthetist,12,4,51,2,4,No,11,2,15,2,8,7,No,3
+E1001352,55,Male,Single,Gerontological nurse,2,3,40,2,1,No,15,2,31,4,7,6,No,4
+E1001354,43,Male,Divorced,Critical care nurse,25,3,79,2,4,No,13,3,18,3,0,0,No,3
+E1001361,26,Male,Married,Health Informatics,1,1,59,2,1,No,16,1,6,3,3,1,No,2
+E1001366,38,Female,Married,Healthcare Representative,17,3,65,2,3,No,18,1,20,2,9,1,No,3
+E1001374,55,Male,Married,Occupational Health nurse,2,4,65,3,2,No,18,2,23,3,2,1,No,3
+E1001381,34,Male,Single,Healthcare Representative,3,1,45,3,4,No,17,3,7,2,2,0,No,3
+E1001384,25,Male,Married,Occupational Health nurse,4,4,32,3,4,Yes,15,2,7,4,7,5,Yes,3
+E1001385,26,Male,Divorced,Occupational Health nurse,21,1,37,3,3,No,20,3,1,2,1,0,Yes,4
+E1001387,42,Male,Married,Gerontological nurse,2,4,35,3,1,No,17,4,23,3,6,13,No,3
+E1001389,28,Male,Divorced,Occupational Health nurse,1,1,45,2,2,No,15,1,1,3,0,0,Yes,3
+E1001391,50,Male,Single,Critical care nurse,1,4,81,3,3,Yes,14,4,5,3,0,0,Yes,3
+E1001392,33,Female,Married,Critical care nurse,7,4,30,3,2,No,17,3,4,3,2,0,No,3
+E1001394,48,Male,Single,Occupational Health nurse,1,1,35,4,4,No,22,3,27,2,4,2,No,2
+E1001395,45,Female,Married,Critical care nurse,9,2,65,2,3,No,13,4,15,3,10,4,No,2
+E1001396,52,Male,Single,Healthcare Representative,7,2,87,3,2,No,19,4,18,3,6,4,No,2
+E1001397,38,Male,Divorced,Critical care nurse,10,3,73,2,3,Yes,14,2,9,3,7,2,No,3
+E1001398,29,Female,Divorced,Occupational Health nurse,28,3,93,3,4,No,22,1,11,3,5,1,No,4
+E1001399,28,Female,Divorced,Nurse Anesthetist,3,4,93,3,2,No,17,2,10,2,7,1,No,3
+E1001402,46,Male,Married,Gerontological nurse,3,1,52,3,3,No,12,4,23,3,9,4,No,2
+E1001403,38,Male,Single,Critical care nurse,2,4,32,3,2,No,16,3,10,3,0,0,No,3
+E1001405,39,Male,Divorced,Healthcare Representative,2,1,84,3,4,No,11,4,21,3,7,11,Yes,2
+E1001406,40,Male,Single,Occupational Health nurse,14,3,44,2,3,No,14,1,21,4,7,4,No,3
+E1001410,39,Male,Single,Health Informatics,9,3,70,3,2,No,15,3,9,2,4,0,No,3
+E1001411,36,Male,Single,Nurse Anesthetist,18,1,78,3,4,No,20,1,18,3,9,0,No,3
+E1001414,28,Male,Married,Occupational Health nurse,2,1,67,2,2,No,17,1,6,1,3,0,No,3
+E1001415,35,Male,Divorced,Critical care nurse,11,4,54,3,4,No,11,4,5,3,2,0,No,3
+E1001416,49,Male,Married,Critical care nurse,8,4,56,2,2,No,17,2,22,3,8,2,No,3
+E1001418,34,Male,Single,Occupational Health nurse,2,4,95,3,3,No,11,4,5,2,2,0,No,3
+E1001426,42,Male,Single,Health Informatics,29,2,56,1,4,No,19,1,16,3,0,0,No,3
+E1001428,29,Male,Married,Nurse Anesthetist,8,2,79,2,4,Yes,15,3,10,2,7,1,No,2
+E1001434,18,Male,Single,Health Informatics,8,3,80,3,3,No,12,4,0,3,0,0,Yes,3
+E1001435,33,Female,Single,Critical care nurse,9,1,77,3,1,Yes,17,1,6,3,2,0,Yes,3
+E1001436,41,Male,Married,Health Informatics,12,2,46,3,4,Yes,11,1,6,3,0,0,No,3
+E1001438,31,Male,Married,Health Informatics,15,3,72,3,3,No,12,3,2,2,2,2,Yes,3
+E1001439,37,Female,Divorced,Healthcare Representative,25,3,52,2,4,No,13,3,9,3,2,1,No,3
+E1001441,34,Female,Married,Critical care nurse,9,2,70,3,3,No,20,1,6,2,5,1,No,2
+E1001443,29,Female,Married,Critical care nurse,23,4,45,2,1,No,13,1,11,1,8,3,Yes,2
+E1001445,42,Male,Single,Critical care nurse,12,3,44,3,1,Yes,12,2,22,2,9,13,Yes,3
+E1001449,42,Male,Single,Critical care nurse,4,2,45,3,1,No,13,4,9,4,4,1,No,4
+E1001451,24,Male,Single,Health Informatics,24,4,49,3,2,No,22,4,6,3,3,1,No,4
+E1001453,28,Female,Married,Occupational Health nurse,12,3,79,3,4,Yes,11,4,1,2,1,0,Yes,3
+E1001455,26,Male,Married,Occupational Health nurse,3,1,82,4,4,No,22,2,8,3,7,0,No,3
+E1001457,30,Male,Married,Critical care nurse,10,3,72,2,3,No,18,1,10,3,3,1,No,3
+E1001460,35,Male,Divorced,Nurse Anesthetist,2,3,44,2,2,No,18,2,15,4,7,6,No,3
+E1001462,34,Male,Single,Healthcare Representative,1,4,97,2,1,No,20,3,14,3,9,4,No,4
+E1001463,35,Male,Married,Health Informatics,4,4,47,2,4,No,13,2,2,4,2,2,No,3
+E1001466,43,Female,Single,Critical care nurse,9,1,85,1,3,No,13,2,7,2,3,1,Yes,2
+E1001469,56,Female,Divorced,Gerontological nurse,4,4,92,3,1,No,13,4,28,3,2,4,No,3
+E1001470,29,Female,Married,Occupational Health nurse,6,2,54,3,4,No,13,1,10,3,8,0,No,3
+E1001473,45,Female,Married,Occupational Health nurse,7,1,83,3,3,Yes,19,3,7,2,2,0,No,3
+E1001474,37,Female,Married,Nurse Anesthetist,1,4,56,2,4,No,13,2,14,2,8,3,No,3
+E1001478,44,Male,Single,Occupational Health nurse,10,3,96,3,3,Yes,11,3,6,3,4,0,Yes,3
+E1001479,53,Female,Divorced,Occupational Health nurse,7,4,50,3,3,No,18,2,26,3,7,4,No,3
+E1001481,22,Male,Married,Occupational Health nurse,3,3,48,2,4,Yes,11,2,1,3,0,0,Yes,3
+E1001482,46,Female,Married,Gerontological nurse,2,3,69,3,1,No,23,1,28,3,15,15,No,4
+E1001489,30,Male,Divorced,Critical care nurse,29,3,61,3,1,No,19,3,8,3,3,0,No,3
+E1001490,40,Male,Married,Critical care nurse,2,2,62,3,2,No,12,4,5,3,0,0,No,3
+E1001493,50,Female,Married,Occupational Health nurse,2,4,30,3,1,No,22,3,32,3,2,2,No,4
+E1001495,46,Male,Married,Occupational Health nurse,15,4,52,3,2,No,11,1,25,3,2,0,No,3
+E1001496,35,Male,Married,Critical care nurse,17,3,94,3,1,Yes,15,4,15,3,7,1,No,3
+E1001497,24,Female,Married,Health Informatics,17,4,97,3,2,No,13,1,1,1,0,0,Yes,3
+E1001498,33,Female,Married,Critical care nurse,25,2,82,3,3,No,12,1,10,2,7,0,No,3
+E1001499,36,Male,Divorced,Health Informatics,6,3,60,1,3,No,14,3,7,3,7,1,No,3
+E1001512,32,Female,Married,Health Informatics,13,3,77,2,2,No,20,3,2,3,2,2,No,4
+E1001513,32,Female,Single,Occupational Health nurse,2,4,38,3,3,Yes,14,4,10,3,7,0,No,3
+E1001515,36,Female,Divorced,Nurse Anesthetist,1,3,77,1,1,Yes,21,3,17,3,7,7,No,4
+E1001518,25,Male,Single,Critical care nurse,10,3,57,3,4,No,14,2,5,3,3,1,No,3
+E1001522,27,Male,Married,Occupational Health nurse,14,1,42,3,1,Yes,14,4,9,2,7,6,No,2
+E1001523,54,Female,Divorced,Nurse Anesthetist,1,4,53,3,3,No,17,1,33,1,4,1,No,3
+E1001524,44,Female,Married,Occupational Health nurse,2,1,72,4,4,No,13,4,10,3,5,7,No,2
+E1001529,31,Male,Married,Occupational Health nurse,11,3,80,3,1,Yes,12,4,6,2,5,0,No,3
+E1001534,49,Male,Married,Occupational Health nurse,4,1,85,2,3,No,13,3,23,4,0,0,No,3
+E1001536,48,Male,Single,Health Informatics,2,4,76,4,2,No,11,3,7,2,0,0,No,3
+E1001538,29,Male,Divorced,Occupational Health nurse,7,3,82,3,4,Yes,11,2,6,3,0,1,No,3
+E1001545,44,Male,Married,Gerontological nurse,5,2,88,3,2,No,11,3,26,3,9,3,No,2
+E1001555,45,Female,Single,Gerontological nurse,2,1,94,1,2,Yes,16,1,26,3,10,1,Yes,2
+E1001556,55,Male,Divorced,Healthcare Representative,8,4,37,2,2,Yes,15,4,34,3,9,15,No,3
+E1001557,21,Female,Single,Health Informatics,10,1,45,2,3,No,20,3,2,1,2,2,Yes,2
+E1001558,46,Female,Married,Gerontological nurse,4,4,33,2,2,No,14,3,26,3,4,0,No,3
+E1001559,34,Female,Single,Critical care nurse,2,3,86,3,1,Yes,12,4,4,3,2,0,No,3
+E1001560,51,Male,Divorced,Gerontological nurse,9,4,83,3,2,Yes,24,1,31,2,10,11,No,4
+E1001561,59,Male,Single,Occupational Health nurse,18,4,67,3,4,No,12,4,25,2,7,5,No,3
+E1001563,34,Female,Divorced,Health Informatics,19,3,46,3,2,No,13,3,15,4,8,5,No,3
+E1001564,28,Male,Single,Health Informatics,1,4,44,3,3,Yes,11,3,5,2,2,0,No,3
+E1001566,44,Male,Divorced,Occupational Health nurse,4,3,92,4,1,No,14,4,26,2,9,14,No,3
+E1001571,43,Female,Single,Critical care nurse,4,4,56,2,4,No,14,4,23,4,7,15,No,3
+E1001572,36,Female,Single,Nurse Anesthetist,2,3,53,3,2,Yes,11,4,18,3,14,5,No,3
+E1001574,28,Male,Married,Health Informatics,2,4,52,2,4,Yes,12,2,2,3,2,2,No,3
+E1001575,51,Female,Single,Health Informatics,6,2,40,2,3,No,14,2,8,2,0,7,No,3
+E1001576,30,Female,Single,Nurse Anesthetist,9,3,72,3,3,Yes,18,3,10,3,4,1,No,3
+E1001577,29,Female,Divorced,Health Informatics,7,2,39,3,3,Yes,13,1,10,3,7,7,Yes,2
+E1001582,32,Male,Married,Critical care nurse,8,3,56,4,4,No,15,3,10,4,7,0,No,3
+E1001584,45,Female,Single,Gerontological nurse,25,2,83,3,2,No,22,3,22,3,0,0,No,4
+E1001585,39,Female,Divorced,Gerontological nurse,13,3,94,2,2,Yes,13,4,21,3,9,15,No,3
+E1001587,32,Male,Married,Occupational Health nurse,7,4,79,3,3,No,18,1,10,3,4,1,Yes,3
+E1001590,36,Female,Married,Healthcare Representative,10,4,63,3,3,No,12,1,10,3,7,1,No,3
+E1001593,28,Female,Married,Occupational Health nurse,1,3,55,1,4,No,11,1,10,3,8,7,No,3
+E1001595,50,Female,Married,Occupational Health nurse,28,4,43,3,1,Yes,11,2,25,3,2,1,No,3
+E1001596,40,Male,Single,Critical care nurse,25,4,57,2,2,Yes,12,3,9,3,4,1,Yes,3
+E1001597,52,Male,Single,Critical care nurse,5,2,64,3,2,Yes,19,3,10,2,7,7,Yes,2
+E1001602,31,Female,Divorced,Critical care nurse,2,4,57,3,3,Yes,19,1,10,2,8,9,No,3
+E1001607,41,Male,Single,Critical care nurse,10,3,40,1,2,No,13,1,19,3,2,11,No,3
+E1001614,55,Female,Married,Gerontological nurse,2,4,58,1,3,No,14,4,23,3,9,9,No,3
+E1001616,56,Male,Single,Gerontological nurse,8,4,99,3,2,No,14,1,36,3,3,7,No,3
+E1001622,34,Male,Divorced,Healthcare Representative,9,4,86,3,4,No,11,4,10,2,7,1,No,3
+E1001627,41,Female,Divorced,Critical care nurse,1,3,66,3,1,No,17,4,10,3,3,1,No,3
+E1001630,51,Male,Divorced,Gerontological nurse,5,3,84,3,2,Yes,11,2,33,3,9,0,No,3
+E1001633,38,Female,Divorced,Critical care nurse,2,2,31,3,1,No,15,4,11,3,7,1,No,2
+E1001634,34,Female,Single,Critical care nurse,15,3,66,3,1,No,12,4,10,4,8,9,No,3
+E1001636,25,Male,Married,Health Informatics,19,4,67,3,4,No,11,3,7,2,2,1,No,3
+E1001638,58,Female,Married,Nurse Anesthetist,7,3,53,2,1,Yes,14,4,31,2,9,5,Yes,3
+E1001639,40,Male,Married,Health Informatics,1,2,88,3,2,No,22,3,7,3,2,0,No,3
+E1001640,36,Female,Married,Critical care nurse,7,1,83,4,1,No,16,4,17,2,7,6,No,2
+E1001641,48,Male,Single,Nurse Anesthetist,4,4,54,3,4,No,11,3,11,3,9,0,No,3
+E1001645,51,Female,Single,Occupational Health nurse,11,4,82,2,2,No,16,2,29,2,2,0,No,3
+E1001646,18,Female,Single,Occupational Health nurse,1,4,97,3,4,No,15,3,0,4,0,0,No,4
+E1001647,35,Female,Married,Health Informatics,1,4,60,2,4,No,12,2,10,3,7,0,No,3
+E1001649,27,Male,Single,Critical care nurse,2,4,43,1,4,No,20,2,8,3,2,0,No,4
+E1001650,55,Male,Single,Critical care nurse,13,1,85,4,3,Yes,17,3,24,2,7,3,Yes,2
+E1001651,56,Male,Married,Occupational Health nurse,23,4,68,3,2,Yes,12,1,33,3,16,15,No,3
+E1001653,40,Female,Divorced,Occupational Health nurse,2,2,89,4,3,No,20,2,15,3,11,11,No,2
+E1001655,34,Male,Married,Health Informatics,29,2,86,3,3,No,13,1,10,3,7,7,No,2
+E1001661,34,Female,Single,Healthcare Representative,2,3,98,3,4,No,11,4,14,4,11,4,No,3
+E1001665,28,Male,Married,Critical care nurse,26,3,48,2,1,No,11,3,5,3,3,0,No,3
+E1001668,39,Male,Married,Critical care nurse,21,1,44,2,4,Yes,12,4,8,4,4,1,No,2
+E1001669,51,Male,Married,Critical care nurse,2,2,52,3,2,No,11,2,14,3,2,3,No,2
+E1001670,41,Female,Divorced,Occupational Health nurse,22,4,75,3,4,Yes,14,1,12,2,2,3,No,3
+E1001673,33,Male,Married,Critical care nurse,5,2,61,3,4,No,13,1,8,4,4,1,No,2
+E1001674,32,Male,Married,Critical care nurse,2,3,36,3,2,Yes,13,1,4,2,2,1,No,3
+E1001675,39,Male,Married,Occupational Health nurse,25,3,71,3,3,No,21,2,13,3,4,0,No,4
+E1001677,25,Male,Married,Critical care nurse,18,1,93,4,3,No,11,2,6,2,2,1,No,2
+E1001679,52,Female,Married,Nurse Anesthetist,28,4,59,4,3,Yes,11,2,24,2,3,0,No,3
+E1001681,27,Female,Married,Critical care nurse,10,4,98,2,4,Yes,11,4,6,3,2,4,No,3
+E1001686,42,Female,Married,Gerontological nurse,10,3,31,3,1,No,14,3,21,3,7,0,No,3
+E1001689,37,Female,Single,Occupational Health nurse,11,1,94,3,3,No,18,1,8,3,2,0,No,3
+E1001690,35,Male,Single,Nurse Anesthetist,18,3,60,3,4,No,11,3,10,3,2,2,No,3
+E1001693,25,Male,Married,Health Informatics,1,1,81,3,4,No,11,2,7,2,2,0,No,3
+E1001698,49,Male,Single,Occupational Health nurse,28,1,97,2,1,No,20,1,20,3,3,1,Yes,3
+E1001701,58,Female,Married,Occupational Health nurse,1,4,76,3,1,Yes,21,3,32,3,8,1,No,4
+E1001703,36,Female,Single,Critical care nurse,3,1,99,3,2,Yes,16,4,15,3,4,0,No,3
+E1001706,30,Female,Divorced,Critical care nurse,7,4,73,3,1,No,14,2,8,3,2,0,No,3
+E1001712,27,Male,Married,Occupational Health nurse,11,2,91,3,1,No,14,2,6,4,0,1,No,3
+E1001713,36,Male,Single,Health Informatics,4,1,37,2,4,No,16,3,10,2,4,1,No,2
+E1001718,37,Male,Single,Occupational Health nurse,5,3,84,4,3,No,14,1,7,1,5,1,No,3
+E1001719,56,Female,Married,Occupational Health nurse,1,1,90,3,1,No,22,4,5,4,2,1,No,4
+E1001723,24,Female,Married,Critical care nurse,4,4,42,3,3,Yes,12,3,5,3,4,0,No,3
+E1001725,34,Female,Married,Health Informatics,1,4,86,2,2,No,17,1,7,2,4,0,No,3
+E1001726,41,Male,Married,Occupational Health nurse,5,2,90,4,3,Yes,12,1,7,2,2,0,No,3
+E1001727,40,Male,Divorced,Health Informatics,9,3,81,3,3,No,11,3,11,4,7,0,No,3
+E1001731,31,Male,Divorced,Critical care nurse,8,1,31,3,4,No,18,1,13,3,7,9,No,2
+E1001736,39,Female,Single,Health Informatics,2,1,54,2,1,Yes,23,2,11,4,0,0,Yes,4
+E1001737,31,Female,Single,Occupational Health nurse,1,3,100,4,2,No,11,1,10,3,8,4,Yes,3
+E1001738,45,Male,Divorced,Occupational Health nurse,20,2,95,1,1,Yes,18,2,24,3,7,0,No,3
+E1001743,45,Male,Married,Occupational Health nurse,29,2,55,3,4,Yes,18,4,10,4,1,1,No,3
+E1001749,44,Male,Single,Health Informatics,5,3,90,2,3,No,14,4,7,3,2,0,No,3
+E1001751,49,Male,Married,Occupational Health nurse,5,1,96,3,3,No,14,2,20,2,2,1,No,2
+E1001753,44,Male,Single,Occupational Health nurse,20,4,49,3,2,No,13,3,6,2,2,1,No,3
+E1001755,33,Male,Married,Critical care nurse,7,4,54,3,1,No,14,1,5,3,3,0,No,3
+E1001756,34,Male,Single,Critical care nurse,3,4,81,1,1,No,18,4,15,3,9,3,No,3
+E1001757,30,Male,Married,Critical care nurse,16,4,96,3,3,No,15,3,4,2,1,2,No,3
+E1001758,42,Female,Single,Health Informatics,9,1,74,3,4,No,13,3,12,3,9,5,No,2
+E1001759,44,Female,Married,Critical care nurse,1,1,79,3,3,No,12,3,11,2,0,0,No,3
+E1001762,49,Male,Divorced,Occupational Health nurse,7,3,35,3,2,No,14,2,29,3,7,0,No,3
+E1001767,34,Female,Single,Critical care nurse,24,1,40,2,2,Yes,23,3,16,4,9,10,Yes,2
+E1001774,44,Male,Single,Occupational Health nurse,2,2,86,3,3,Yes,18,2,16,2,2,2,No,2
+E1001775,29,Male,Divorced,Critical care nurse,19,3,77,2,3,No,14,3,10,3,7,0,No,3
+E1001779,55,Male,Married,Occupational Health nurse,4,4,30,3,3,Yes,16,2,4,3,2,1,No,3
+E1001780,33,Female,Married,Occupational Health nurse,4,1,82,2,2,No,11,4,8,3,4,0,No,3
+E1001781,47,Female,Married,Critical care nurse,14,3,78,3,3,Yes,17,3,11,2,4,1,No,3
+E1001782,28,Male,Single,Health Informatics,2,3,38,2,1,No,11,3,8,2,0,0,Yes,3
+E1001784,28,Male,Divorced,Occupational Health nurse,1,1,72,2,3,No,14,4,1,1,0,0,No,3
+E1001785,28,Male,Single,Critical care nurse,7,3,55,3,1,No,14,4,5,3,2,1,No,3
+E1001787,49,Female,Married,Health Informatics,3,3,43,2,1,No,25,1,10,3,2,1,No,4
+E1001791,29,Female,Married,Health Informatics,2,4,97,3,2,No,13,3,4,3,2,0,No,3
+E1001792,28,Male,Married,Occupational Health nurse,29,3,96,1,2,No,14,2,8,2,6,1,No,3
+E1001793,33,Male,Single,Healthcare Representative,8,4,69,3,3,Yes,17,1,14,3,0,0,No,3
+E1001794,32,Male,Single,Gerontological nurse,10,3,64,3,4,No,25,2,10,4,2,0,No,3
+E1001798,54,Female,Divorced,Occupational Health nurse,11,2,87,3,4,No,20,1,26,3,9,1,No,2
+E1001805,46,Female,Married,Gerontological nurse,3,3,51,3,2,No,12,4,23,4,12,5,No,3
+E1001807,35,Female,Single,Occupational Health nurse,16,4,91,2,2,No,19,4,11,1,8,3,No,3
+E1001811,23,Male,Single,Health Informatics,20,1,97,3,3,No,14,2,5,3,3,1,No,2
+E1001812,40,Male,Single,Health Informatics,9,4,86,3,1,No,14,2,15,1,4,1,Yes,3
+E1001813,34,Male,Married,Critical care nurse,1,4,64,2,3,Yes,14,4,10,3,9,8,No,3
+E1001820,42,Male,Married,Occupational Health nurse,2,3,68,2,2,No,14,2,4,3,0,0,No,3
+E1001822,29,Female,Married,Healthcare Representative,8,3,39,1,1,No,13,3,9,3,7,0,No,3
+E1001823,33,Male,Single,Nurse Anesthetist,25,4,44,2,2,No,13,4,5,3,3,0,No,3
+E1001825,42,Male,Married,Healthcare Representative,2,4,40,3,4,Yes,14,3,24,1,8,13,No,3
+E1001826,40,Male,Married,Critical care nurse,9,1,47,3,1,No,12,4,9,4,4,7,No,2
+E1001827,33,Male,Married,Health Informatics,28,2,79,3,3,Yes,12,2,15,3,14,5,No,2
+E1001828,40,Male,Single,Gerontological nurse,6,3,38,3,4,Yes,21,4,21,3,7,7,No,4
+E1001829,24,Male,Divorced,Health Informatics,21,3,57,2,1,No,14,2,2,3,1,0,No,3
+E1001830,40,Male,Divorced,Occupational Health nurse,8,4,72,3,4,Yes,18,3,8,3,2,2,No,3
+E1001831,45,Male,Divorced,Healthcare Representative,1,1,66,3,2,No,12,1,10,3,8,7,No,2
+E1001835,48,Female,Divorced,Critical care nurse,16,3,96,3,3,No,14,3,18,3,7,7,No,3
+E1001838,33,Male,Married,Critical care nurse,8,1,46,3,1,No,13,4,8,1,2,2,No,2
+E1001840,30,Male,Married,Critical care nurse,1,2,64,2,1,No,11,4,10,3,8,6,Yes,2
+E1001846,30,Male,Married,Critical care nurse,29,3,33,3,2,No,12,2,9,3,2,1,No,3
+E1001847,35,Female,Divorced,Health Informatics,2,1,69,3,1,Yes,12,4,1,3,0,0,Yes,3
+E1001850,53,Female,Married,Nurse Anesthetist,2,3,78,2,4,No,16,2,34,3,7,1,Yes,3
+E1001851,38,Male,Married,Nurse Anesthetist,2,3,81,3,2,No,11,1,7,3,2,1,Yes,3
+E1001854,48,Female,Married,Occupational Health nurse,15,3,65,3,1,No,12,4,10,2,2,7,No,3
+E1001856,55,Male,Married,Gerontological nurse,26,3,60,2,4,No,21,3,36,3,6,2,No,4
+E1001858,34,Male,Married,Occupational Health nurse,1,2,45,3,4,No,17,2,9,2,2,2,No,2
+E1001860,38,Male,Married,Critical care nurse,14,3,80,3,2,No,11,4,10,3,8,7,No,3
+E1001863,36,Female,Single,Critical care nurse,1,2,73,3,3,No,13,1,15,3,0,0,No,3
+E1001864,29,Male,Single,Occupational Health nurse,3,2,87,3,1,Yes,18,4,10,3,9,1,No,2
+E1001865,35,Female,Single,Healthcare Representative,10,1,51,3,3,Yes,16,3,10,3,2,0,No,3
+E1001866,39,Male,Married,Critical care nurse,6,4,38,4,3,No,11,1,11,3,6,7,No,3
+E1001868,29,Male,Divorced,Family nurse,2,1,87,3,4,No,19,4,6,4,4,1,No,2
+E1001869,50,Male,Married,Gerontological nurse,9,3,59,3,3,Yes,16,3,27,3,0,0,No,3
+E1001870,23,Male,Married,Family nurse,10,4,45,4,3,No,16,4,4,3,2,2,No,3
+E1001874,35,Male,Married,Family nurse,28,2,46,4,3,No,17,4,10,2,9,6,No,2
+E1001875,34,Male,Married,Family nurse,10,4,92,2,3,No,14,2,8,2,2,7,No,3
+E1001877,43,Male,Divorced,Family nurse,27,4,87,4,2,No,12,3,8,3,4,0,No,3
+E1001882,28,Male,Married,Family nurse,24,3,51,3,2,Yes,17,3,1,3,1,0,Yes,3
+E1001883,22,Female,Married,Family nurse,26,2,85,2,3,Yes,14,2,4,2,2,1,No,2
+E1001884,50,Male,Married,Family nurse,20,2,41,3,3,Yes,15,3,32,3,8,12,No,2
+E1001885,32,Female,Married,Family nurse,5,2,35,4,4,No,17,4,6,3,2,0,No,3
+E1001886,44,Female,Divorced,Family nurse,7,2,31,3,4,Yes,14,4,23,2,7,1,No,2
+E1001887,30,Male,Married,Family nurse,7,2,48,2,2,No,12,2,6,2,4,1,No,2
+E1001889,45,Female,Single,Family nurse,5,3,50,1,1,Yes,14,1,10,3,7,1,No,3
+E1001890,45,Male,Married,Critical care nurse,26,1,52,2,1,No,15,1,10,3,7,4,No,2
+E1001891,31,Male,Single,Critical care nurse,2,4,54,3,1,No,13,4,10,3,2,0,No,3
+E1001892,36,Female,Married,Family nurse,12,3,76,3,3,Yes,12,2,7,3,2,1,No,3
+E1001893,34,Male,Divorced,Family nurse,10,3,42,4,4,No,13,1,9,3,7,7,No,3
+E1001895,49,Female,Married,Family nurse,25,3,84,3,1,No,14,4,10,2,6,1,No,3
+E1001897,27,Male,Divorced,Family nurse,19,4,67,2,1,No,11,1,7,3,7,0,No,3
+E1001899,35,Male,Married,Family nurse,18,2,48,4,1,No,11,4,16,3,15,1,No,2
+E1001900,28,Female,Divorced,Family nurse,27,2,39,1,1,No,21,2,6,2,3,0,No,3
+E1001901,21,Male,Single,Family nurse,5,3,97,3,4,No,18,3,3,3,2,2,No,3
+E1001903,47,Female,Married,Gerontological nurse,26,4,98,3,3,No,11,3,27,3,2,1,No,3
+E1001905,39,Male,Divorced,Family nurse,3,3,76,2,3,No,15,4,11,3,8,0,No,3
+E1001908,35,Female,Married,Family nurse,8,3,52,3,3,No,12,4,15,3,11,2,No,3
+E1001909,37,Male,Married,Family nurse,19,3,85,3,3,No,17,1,9,2,3,0,No,3
+E1001911,39,Female,Single,Family nurse,4,1,81,3,3,No,13,4,10,1,2,3,No,2
+E1001916,38,Female,Married,Family nurse,2,4,54,2,3,Yes,19,4,10,4,4,0,No,3
+E1001918,37,Female,Married,Family nurse,10,2,71,3,2,No,11,1,8,1,4,7,No,2
+E1001919,40,Female,Single,Family nurse,16,3,84,3,4,Yes,15,4,18,2,2,3,No,3
+E1001923,35,Male,Divorced,Critical care nurse,15,1,59,1,4,Yes,14,4,7,2,2,2,Yes,2
+E1001924,24,Female,Single,Family nurse,2,1,32,3,4,Yes,13,3,6,3,3,1,No,2
+E1001925,27,Female,Married,Family nurse,8,2,86,4,3,No,17,1,5,3,2,0,No,3
+E1001926,27,Male,Single,Family nurse,2,4,87,3,4,No,13,3,6,2,2,1,No,3
+E1001931,25,Male,Divorced,Family nurse,2,4,77,4,3,No,17,3,7,3,7,0,No,3
+E1001932,39,Male,Married,Family nurse,12,4,66,3,2,No,21,3,7,3,4,1,No,4
+E1001933,49,Female,Married,Family nurse,22,1,72,3,2,No,16,2,27,3,2,1,No,2
+E1001934,50,Female,Divorced,Family nurse,17,4,50,2,1,No,15,3,19,3,11,1,No,3
+E1001936,34,Female,Divorced,Family nurse,3,4,66,3,2,No,12,3,11,3,8,7,No,3
+E1001937,36,Male,Single,Family nurse,7,1,77,3,2,No,11,3,15,3,3,1,No,2
+E1001939,49,Female,Married,Family nurse,6,3,41,2,3,Yes,19,2,30,3,11,2,No,3
+E1001940,36,Female,Married,Family nurse,1,4,33,2,3,No,15,3,4,3,2,1,No,3
+E1001942,36,Male,Divorced,Family nurse,3,4,79,4,1,No,20,1,13,3,4,0,No,4
+E1001943,54,Female,Married,Family nurse,22,2,91,3,3,No,25,3,36,3,8,4,No,2
+E1001944,43,Male,Married,Family nurse,15,3,65,2,3,No,24,1,14,3,10,6,No,4
+E1001945,35,Male,Single,Critical care nurse,12,4,36,3,4,Yes,24,1,13,4,9,6,Yes,4
+E1001947,29,Male,Divorced,Critical care nurse,5,1,43,2,2,Yes,13,2,10,2,0,0,No,3
+E1001948,33,Male,Divorced,Critical care nurse,2,4,93,3,4,No,14,3,6,3,2,0,No,3
+E1001949,32,Male,Divorced,Family nurse,2,4,45,3,2,No,13,3,10,2,5,1,No,3
+E1001951,31,Female,Married,Critical care nurse,5,1,67,3,4,No,11,1,10,3,0,0,No,3
+E1001952,49,Female,Divorced,Family nurse,16,4,74,3,1,Yes,16,2,17,2,2,2,No,3
+E1001959,33,Female,Divorced,Critical care nurse,16,3,36,3,4,Yes,25,3,7,3,5,1,No,4
+E1001960,36,Male,Married,Family nurse,26,1,80,3,3,No,14,2,10,2,2,0,No,3
+E1001962,23,Male,Single,Family nurse,8,4,93,2,3,Yes,11,1,5,3,4,1,Yes,3
+E1001965,38,Female,Married,Family nurse,4,4,87,3,3,No,19,4,7,2,0,0,No,3
+E1001967,53,Male,Married,Family nurse,24,2,48,4,4,No,15,3,11,3,3,1,No,2
+E1001970,32,Male,Single,Family nurse,2,4,95,3,2,No,12,1,1,3,0,0,Yes,3
+E1001971,26,Male,Single,Family nurse,7,4,76,3,4,No,20,3,7,3,7,5,No,4
+E1001972,55,Male,Divorced,Family nurse,22,1,94,2,2,No,12,4,8,3,2,1,No,2
+E1001974,34,Male,Married,Occupational Health nurse,5,2,57,2,4,No,14,3,15,4,10,4,No,2
+E1001975,60,Male,Divorced,Healthcare Representative,1,3,92,1,4,No,20,3,19,4,0,0,No,4
+E1001978,37,Male,Divorced,Critical care nurse,1,3,31,1,4,No,14,3,6,2,3,1,No,3
+E1001981,44,Female,Married,Healthcare Representative,2,3,96,4,4,Yes,19,2,9,3,7,6,No,3
+E1001984,43,Male,Married,Critical care nurse,2,4,73,3,4,Yes,17,1,10,3,9,8,No,3
+E1001987,29,Female,Married,Occupational Health nurse,9,4,43,3,3,No,17,3,9,3,3,1,No,3
+E1001990,45,Male,Married,Occupational Health nurse,1,3,74,2,3,No,23,4,25,2,15,14,No,4
+E1001996,26,Male,Married,Health Informatics,17,4,62,1,3,No,15,3,3,4,2,0,No,3
+E1001997,45,Female,Single,Occupational Health nurse,28,4,48,2,2,No,11,3,21,3,6,8,No,3
+E1001999,31,Male,Married,Health Informatics,2,2,69,3,3,No,14,4,6,4,2,0,No,3
+E1002003,24,Male,Divorced,Health Informatics,29,2,91,3,1,No,13,2,6,4,2,1,No,2
+E1002005,46,Male,Single,Healthcare Representative,13,3,34,3,2,No,14,4,19,3,7,0,No,3
+E1002007,30,Male,Married,Medical surgical nurse,16,2,33,3,4,No,12,2,10,2,0,0,No,3
+E1002009,47,Male,Married,Critical care nurse,2,3,87,3,2,No,11,4,4,1,0,0,No,3
+E1002010,46,Male,Divorced,Critical care nurse,2,3,74,3,4,Yes,12,2,13,2,6,0,No,3
+E1002011,36,Male,Divorced,Critical care nurse,13,2,96,2,1,Yes,13,2,16,3,2,2,Yes,2
+E1002012,32,Male,Single,Critical care nurse,1,1,34,1,2,No,15,2,10,3,0,0,Yes,3
+E1002015,39,Male,Married,Health Informatics,1,4,77,3,4,Yes,15,4,9,3,8,5,No,3
+E1002017,32,Male,Married,Critical care nurse,19,4,80,1,3,No,13,3,10,1,3,0,No,3
+E1002018,40,Male,Single,Gerontological nurse,7,2,88,3,2,No,14,2,21,2,8,12,No,2
+E1002023,30,Female,Single,Occupational Health nurse,2,4,78,2,1,No,16,4,10,3,7,0,No,3
+E1002027,31,Male,Married,Critical care nurse,5,1,51,3,3,No,19,3,6,3,2,0,No,4
+E1002029,27,Female,Single,Occupational Health nurse,8,3,67,3,4,No,11,3,6,2,2,1,No,3
+E1002031,29,Male,Single,Healthcare Representative,1,4,70,4,3,Yes,12,4,10,4,2,0,No,3
+E1002032,30,Male,Divorced,Critical care nurse,15,3,94,2,1,No,11,1,12,3,7,1,No,3
+E1002033,34,Male,Married,Medical surgical nurse,2,4,97,4,4,Yes,14,1,6,3,0,1,No,3
+E1002034,33,Female,Single,Critical care nurse,2,4,62,3,2,No,15,4,13,2,7,1,No,3
+E1002035,49,Female,Single,Critical care nurse,11,4,80,3,4,No,12,3,8,4,1,0,No,3
+E1002036,33,Female,Single,Critical care nurse,16,1,74,3,1,Yes,20,3,11,2,0,0,Yes,4
+E1002038,38,Female,Married,Health Informatics,2,3,75,2,2,No,14,2,9,2,1,0,No,3
+E1002042,32,Male,Single,Medical surgical nurse,5,2,65,3,2,No,14,2,12,3,7,0,No,3
+E1002044,38,Male,Married,Healthcare Representative,18,2,60,1,4,Yes,16,3,15,3,0,1,No,3
+E1002045,43,Male,Married,Medical surgical nurse,17,3,38,2,3,Yes,16,4,6,3,0,0,Yes,3
+E1002049,33,Male,Divorced,Medical surgical nurse,4,4,90,3,2,No,15,4,11,2,8,1,No,3
+E1002050,41,Male,Divorced,Health Informatics,9,3,94,3,1,No,20,2,5,3,3,0,No,4
+E1002052,34,Male,Divorced,Critical care nurse,10,4,87,3,3,Yes,14,3,15,3,14,0,No,3
+E1002057,34,Female,Single,Critical care nurse,3,4,32,1,4,No,12,1,6,3,2,2,No,3
+E1002060,38,Female,Married,Occupational Health nurse,6,4,40,2,3,No,11,2,5,3,4,0,No,3
+E1002061,22,Female,Married,Occupational Health nurse,8,3,79,3,1,Yes,17,3,1,3,0,0,Yes,3
+E1002062,31,Female,Married,Critical care nurse,29,1,91,2,4,No,14,1,13,3,7,5,No,2
+E1002068,36,Male,Married,Occupational Health nurse,10,4,90,3,1,Yes,13,4,15,3,8,5,No,3
+E1002070,44,Male,Divorced,Medical surgical nurse,1,3,99,3,2,Yes,12,3,6,2,3,2,Yes,3
+E1002076,33,Male,Married,Medical surgical nurse,8,4,90,4,1,No,19,2,14,3,8,7,No,3
+E1002079,46,Male,Single,Critical care nurse,26,2,98,2,2,No,15,3,6,3,2,2,No,2
+E1002080,40,Female,Married,Health Informatics,2,3,99,3,1,No,17,4,7,2,3,0,No,3
+E1002082,35,Male,Divorced,Occupational Health nurse,2,2,90,3,4,No,14,3,15,3,7,1,No,2
+E1002085,34,Male,Married,Health Informatics,9,4,93,3,1,No,17,3,11,2,1,0,Yes,3
+E1002090,39,Male,Divorced,Critical care nurse,20,3,83,3,4,No,18,4,7,3,1,2,No,3
+E1002091,43,Male,Single,Medical surgical nurse,9,1,52,3,3,No,13,3,7,2,2,1,No,2
+E1002092,41,Male,Single,Healthcare Representative,5,2,85,4,2,No,12,1,11,1,2,1,No,2
+E1002093,41,Female,Divorced,Critical care nurse,4,3,81,3,3,Yes,13,4,23,4,14,13,No,3
+E1002101,34,Male,Married,Critical care nurse,8,2,92,4,3,No,21,3,10,3,8,4,No,2
+E1002102,58,Male,Divorced,Gerontological nurse,2,2,52,3,2,No,22,4,37,2,9,14,No,2
+E1002104,35,Male,Married,Health Informatics,23,2,91,1,3,No,16,2,6,4,4,0,No,3
+E1002105,47,Female,Divorced,Occupational Health nurse,4,3,92,2,2,Yes,12,3,28,3,11,14,No,3
+E1002107,40,Female,Divorced,Healthcare Representative,12,2,47,3,1,No,12,2,15,3,4,7,No,2
+E1002108,54,Female,Married,Medical surgical nurse,7,4,68,3,4,No,15,2,14,2,1,1,No,3
+E1002111,31,Female,Married,Critical care nurse,7,1,68,3,1,No,14,4,9,3,2,2,No,2
+E1002114,26,Male,Single,Critical care nurse,10,3,46,3,4,No,13,1,5,3,3,1,No,3
+E1002115,58,Male,Married,Occupational Health nurse,15,1,87,3,3,Yes,14,2,23,3,2,2,No,2
+E1002117,18,Female,Single,Occupational Health nurse,14,2,33,3,3,No,16,3,0,1,0,0,No,3
+E1002123,45,Female,Married,Critical care nurse,2,3,67,3,3,No,22,2,10,4,7,5,No,4
+E1002125,36,Female,Married,Medical surgical nurse,2,4,73,3,2,Yes,22,4,15,3,0,0,No,4
+E1002127,43,Male,Married,Critical care nurse,2,1,92,3,4,No,20,3,7,3,7,7,No,2
+E1002128,27,Female,Single,Occupational Health nurse,5,4,53,3,4,Yes,14,3,6,2,4,0,No,3
+E1002130,29,Male,Married,Health Informatics,20,4,40,3,4,No,13,2,11,4,8,3,No,3
+E1002131,32,Male,Single,Critical care nurse,10,4,79,3,4,No,13,3,4,4,0,0,No,3
+E1002132,42,Male,Married,Medical surgical nurse,10,3,38,3,3,No,22,2,10,2,3,3,No,4
+E1002134,47,Female,Single,Health Informatics,9,2,64,3,3,No,12,3,7,3,2,2,No,2
+E1002137,29,Male,Divorced,Healthcare Representative,29,4,93,1,3,No,17,4,11,3,0,1,No,3
+E1002138,42,Male,Single,Occupational Health nurse,8,4,81,3,3,No,13,4,8,3,0,0,No,3
+E1002140,32,Male,Single,Critical care nurse,2,3,82,2,2,Yes,12,3,7,2,2,2,Yes,3
+E1002141,46,Female,Divorced,Critical care nurse,3,1,45,4,1,No,12,4,25,3,17,2,No,2
+E1002145,48,Male,Married,Occupational Health nurse,10,4,91,2,2,No,12,4,29,3,10,12,No,3
+E1002146,29,Male,Single,Medical surgical nurse,24,4,73,2,4,Yes,24,2,1,2,0,1,Yes,4
+E1002151,55,Male,Married,Medical surgical nurse,2,2,98,2,4,No,20,2,19,4,2,0,No,3
+E1002156,22,Male,Single,Medical surgical nurse,7,4,75,3,2,Yes,23,1,1,3,0,0,Yes,4
+E1002158,36,Female,Married,Critical care nurse,10,2,63,2,3,Yes,13,1,10,3,9,1,No,2
+E1002160,34,Male,Married,Critical care nurse,4,3,64,3,4,Yes,13,4,9,3,3,1,No,3
+E1002161,29,Male,Single,Health Informatics,7,4,59,3,1,No,14,2,11,3,2,1,No,3
+E1002163,37,Male,Married,Medical surgical nurse,7,4,78,3,1,Yes,22,3,16,3,3,0,No,4
+E1002170,40,Male,Divorced,Occupational Health nurse,1,1,98,3,1,No,11,1,22,3,7,11,No,2
+E1002171,26,Female,Married,Medical surgical nurse,1,2,90,2,3,Yes,13,3,1,2,0,1,No,3
+E1002176,27,Female,Single,Critical care nurse,2,1,89,4,3,No,14,2,9,2,7,0,No,3
+E1002178,48,Female,Divorced,Gerontological nurse,22,4,58,3,4,No,11,2,24,3,17,4,No,3
+E1002181,44,Male,Married,Healthcare Representative,1,2,78,4,1,No,15,4,10,3,0,2,No,3
+E1002183,34,Male,Married,Medical surgical nurse,16,4,85,1,1,Yes,23,2,5,3,2,3,Yes,4
+E1002185,56,Male,Single,Occupational Health nurse,24,1,97,3,4,No,16,4,5,3,2,1,Yes,2
+E1002186,36,Male,Married,Critical care nurse,17,3,33,2,2,No,16,3,12,1,2,1,No,2
+E1002187,41,Female,Married,Critical care nurse,8,3,54,3,2,No,21,3,14,3,4,1,No,4
+E1002189,42,Male,Married,Occupational Health nurse,6,3,83,3,1,No,13,2,18,4,7,5,No,3
+E1002190,31,Female,Divorced,Critical care nurse,10,3,86,3,4,Yes,11,4,8,3,2,1,No,3
+E1002193,34,Female,Married,Critical care nurse,3,4,75,2,4,Yes,12,3,9,2,2,0,No,3
+E1002194,31,Female,Divorced,Health Informatics,4,1,62,4,3,No,12,2,4,2,2,2,No,2
+E1002196,26,Male,Married,Occupational Health nurse,6,3,61,4,4,No,18,1,8,3,7,7,No,3
+E1002200,45,Male,Single,Occupational Health nurse,1,2,44,3,3,No,12,3,12,3,2,0,No,3
+E1002202,33,Male,Single,Critical care nurse,10,2,43,3,3,No,14,2,10,2,4,0,No,3
+E1002205,28,Male,Married,Critical care nurse,1,3,42,2,4,Yes,12,3,7,3,7,0,No,3
+E1002207,39,Female,Married,Critical care nurse,21,1,32,1,3,No,19,3,10,3,2,1,No,2
+E1002209,27,Male,Married,Occupational Health nurse,2,2,41,3,2,No,11,3,6,2,3,1,No,2
+E1002210,34,Male,Married,Medical surgical nurse,22,3,86,2,4,Yes,15,2,16,3,10,6,No,3
+E1002212,47,Male,Married,Occupational Health nurse,14,3,64,3,2,No,18,3,16,4,7,1,No,3
+E1002213,56,Female,Married,Critical care nurse,11,4,89,2,1,No,16,3,6,3,0,0,No,3
+E1002215,38,Female,Divorced,Occupational Health nurse,8,4,58,2,2,Yes,16,3,20,3,11,0,No,3
+E1002216,58,Female,Married,Gerontological nurse,21,4,72,3,4,Yes,13,3,29,2,0,0,No,3
+E1002217,32,Female,Single,Medical surgical nurse,5,1,47,4,3,Yes,14,1,8,3,1,0,Yes,3
+E1002218,38,Male,Divorced,Occupational Health nurse,9,2,71,3,4,No,19,4,10,4,2,0,No,4
+E1002219,49,Male,Married,Occupational Health nurse,2,2,42,3,4,No,15,4,28,3,4,4,No,2
+E1002221,42,Male,Divorced,Critical care nurse,12,2,77,3,4,Yes,12,3,14,3,0,0,No,3
+E1002223,35,Male,Married,Critical care nurse,18,2,71,3,1,No,16,4,6,1,3,0,No,2
+E1002225,28,Male,Single,Occupational Health nurse,16,3,49,3,3,No,14,3,5,2,3,1,No,3
+E1002226,31,Male,Divorced,Medical surgical nurse,3,3,48,3,1,Yes,13,4,4,4,2,2,No,3
+E1002227,36,Male,Married,Occupational Health nurse,9,1,66,4,2,No,22,2,5,3,4,0,No,3
+E1002228,34,Male,Single,Critical care nurse,1,1,32,3,4,No,21,1,14,2,8,2,No,2
+E1002229,34,Male,Divorced,Critical care nurse,13,4,39,3,3,No,18,3,9,2,7,1,No,3
+E1002230,26,Male,Single,Health Informatics,1,3,95,3,1,No,13,4,8,2,7,7,No,3
+E1002233,32,Female,Divorced,Occupational Health nurse,15,3,34,3,4,No,18,2,9,3,1,1,No,3
+E1002238,28,Male,Divorced,Occupational Health nurse,17,3,32,2,4,No,12,1,6,2,1,0,Yes,3
+E1002240,35,Female,Married,Critical care nurse,7,3,55,3,4,Yes,11,4,10,3,8,0,No,3
+E1002243,27,Male,Single,Critical care nurse,9,4,44,3,4,No,14,1,7,3,7,0,No,3
+E1002244,32,Male,Single,Occupational Health nurse,5,4,56,2,4,No,24,2,8,3,0,0,No,4
+E1002245,31,Male,Married,Critical care nurse,26,1,63,3,4,Yes,11,3,10,3,7,0,Yes,3
+E1002246,53,Male,Single,Critical care nurse,24,1,66,3,1,Yes,13,2,15,2,2,2,Yes,2
+E1002247,54,Female,Married,Medical surgical nurse,9,1,67,3,3,No,11,3,9,2,3,2,No,2
+E1002248,33,Male,Divorced,Occupational Health nurse,7,4,36,3,3,No,20,3,9,3,7,2,No,4
+E1002249,43,Male,Married,Healthcare Representative,11,1,30,3,3,No,17,2,10,3,9,0,No,3
+E1002251,55,Male,Married,Gerontological nurse,26,3,71,4,2,Yes,18,1,35,3,9,1,No,3
+E1002252,31,Female,Divorced,Occupational Health nurse,2,4,59,1,4,Yes,11,3,1,3,0,0,No,3
+E1002253,39,Male,Single,Critical care nurse,15,2,77,3,1,No,12,1,21,3,8,11,No,2
+E1002254,42,Male,Single,Medical surgical nurse,23,4,37,2,3,No,12,4,20,3,9,3,No,3
+E1002259,24,Male,Single,Healthcare Representative,1,2,45,2,3,No,12,2,4,2,3,1,No,2
+E1002260,23,Male,Single,Health Informatics,12,4,78,3,4,No,13,3,5,4,2,1,No,3
+E1002263,40,Female,Married,Health Informatics,11,4,73,3,3,No,11,1,10,4,9,9,No,3
+E1002264,40,Female,Married,Critical care nurse,2,2,92,3,2,No,14,3,15,3,8,5,No,2
+E1002267,30,Male,Married,Health Informatics,1,4,76,3,2,No,13,3,12,2,8,1,No,3
+E1002270,25,Male,Divorced,Health Informatics,2,4,57,3,3,Yes,19,3,7,2,2,0,No,3
+E1002271,47,Male,Single,Occupational Health nurse,25,1,84,3,3,No,23,2,25,3,14,12,No,2
+E1002273,38,Male,Married,Critical care nurse,1,4,86,3,2,No,15,1,16,3,13,5,No,3
+E1002276,42,Male,Divorced,Medical surgical nurse,18,4,35,3,1,Yes,17,3,9,2,3,1,No,3
+E1002277,41,Male,Married,Medical surgical nurse,1,4,76,3,4,No,22,1,12,3,3,1,No,4
+E1002278,47,Female,Married,Medical surgical nurse,1,3,98,3,2,No,18,1,14,1,8,5,No,2
+E1002285,22,Male,Single,Medical surgical nurse,1,4,63,3,3,No,12,4,4,4,2,1,No,3
+E1002286,35,Male,Single,Medical surgical nurse,9,2,48,3,3,No,19,2,10,3,7,0,No,3
+E1002287,33,Female,Married,Healthcare Representative,15,2,95,3,4,Yes,13,1,10,3,7,8,No,2
+E1002288,32,Female,Single,Health Informatics,29,3,49,2,2,No,13,3,6,3,2,4,No,3
+E1002290,40,Male,Married,Health Informatics,1,1,83,3,4,No,19,3,8,2,0,0,No,3
+E1002292,39,Male,Single,Medical surgical nurse,24,1,52,3,4,No,13,1,18,3,7,1,No,2
+E1002296,25,Female,Divorced,Critical care nurse,8,1,85,3,3,Yes,22,2,6,2,3,0,No,3
+E1002298,44,Male,Single,Medical surgical nurse,1,2,42,3,4,Yes,12,3,6,3,3,1,No,2
+E1002302,36,Female,Married,Critical care nurse,3,1,94,2,4,No,19,3,10,3,7,3,No,2
+E1002304,56,Male,Divorced,Healthcare Representative,1,3,57,3,3,No,21,1,13,2,12,1,No,4
+E1002305,29,Male,Married,Medical surgical nurse,1,1,36,3,4,Yes,14,2,4,4,2,2,Yes,2
+E1002310,56,Male,Married,Health Informatics,7,4,72,3,3,No,11,4,14,1,9,9,Yes,2
+E1002313,34,Female,Married,Critical care nurse,28,4,95,2,3,No,21,4,8,3,7,1,No,4
+E1002314,36,Male,Divorced,Critical care nurse,15,4,88,1,4,No,24,1,15,2,12,11,No,4
+E1002315,41,Male,Divorced,Critical care nurse,3,3,57,2,2,No,11,3,14,3,4,0,No,3
+E1002316,32,Male,Single,Medical surgical nurse,2,4,78,3,1,No,14,4,4,3,2,1,No,3
+E1002319,38,Female,Married,Critical care nurse,10,1,100,3,4,No,11,3,10,3,7,1,No,2
+E1002322,50,Male,Divorced,Critical care nurse,1,2,94,3,3,No,12,4,12,3,3,0,Yes,4
+E1002323,36,Female,Married,Critical care nurse,11,2,100,2,4,No,13,1,8,2,3,0,No,3
+E1002326,40,Male,Single,Medical surgical nurse,2,3,52,2,3,No,14,4,8,3,2,2,No,3
+E1002327,35,Male,Married,Medical surgical nurse,18,3,80,3,3,Yes,14,4,10,4,2,0,No,3
+E1002329,40,Female,Married,Medical surgical nurse,2,3,98,3,3,No,14,2,20,3,3,0,No,3
+E1002330,35,Female,Married,Medical surgical nurse,1,3,62,1,4,No,12,4,4,3,3,1,No,3
+E1002331,29,Male,Married,Medical surgical nurse,13,4,46,2,2,Yes,13,1,10,3,3,0,No,3
+E1002332,29,Female,Single,Medical surgical nurse,28,4,73,2,1,No,14,2,5,1,4,0,No,2
+E1002333,50,Male,Divorced,Critical care nurse,28,4,39,2,1,Yes,13,2,20,3,2,2,Yes,3
+E1002334,39,Female,Married,Critical care nurse,24,2,60,2,4,No,11,1,21,2,9,9,No,2
+E1002340,39,Male,Married,Healthcare Representative,6,4,42,2,1,No,15,1,9,3,7,1,No,3
+E1002343,49,Male,Married,Critical care nurse,2,4,63,2,2,No,14,4,17,2,6,0,No,3
+E1002346,34,Male,Married,Health Informatics,8,2,82,4,3,No,12,1,6,4,3,1,No,3
+E100279,41,Female,Single,Critical care nurse,1,2,94,3,4,Yes,11,1,8,1,4,0,Yes,2
+E100301,53,Female,Married,Gerontological nurse,2,1,78,2,4,No,16,3,31,3,8,3,No,2
+E100313,42,Male,Married,Critical care nurse,8,3,48,3,2,No,11,4,10,3,7,4,No,3
+E100316,46,Female,Single,Gerontological nurse,2,2,83,3,1,No,12,4,22,2,2,2,No,2
+E100330,33,Female,Married,Critical care nurse,1,3,42,4,1,No,19,1,10,3,3,1,No,3
+E100334,27,Male,Single,Critical care nurse,8,4,37,3,3,No,15,4,9,3,8,1,No,3
+E100338,34,Male,Single,Critical care nurse,23,2,72,3,3,No,20,3,10,3,5,8,No,2
+E100340,46,Male,Single,Critical care nurse,5,1,98,3,4,Yes,21,3,14,3,6,0,No,3
+E100346,44,Female,Divorced,Critical care nurse,1,2,75,3,1,Yes,21,3,9,2,3,1,No,2
+E100350,26,Female,Married,Critical care nurse,23,3,47,2,4,Yes,19,3,5,2,2,0,No,3
+E100352,35,Male,Married,Critical care nurse,18,2,71,3,1,No,22,4,9,2,8,1,No,2
+E100359,59,Female,Single,Critical care nurse,25,1,99,3,1,No,11,4,28,2,16,7,No,2
+E100378,35,Male,Single,Critical care nurse,1,3,32,2,1,No,14,2,16,3,13,2,No,3
+E100384,55,Male,Married,Critical care nurse,1,1,70,3,4,No,14,4,24,3,0,1,No,3
+E100396,46,Male,Single,Critical care nurse,9,3,64,2,4,No,16,4,9,3,8,4,Yes,3
+E100398,51,Male,Single,Critical care nurse,21,3,71,3,4,Yes,22,4,11,1,7,1,No,3
+E100399,30,Female,Divorced,Critical care nurse,4,3,63,2,2,Yes,12,2,11,2,8,2,No,3
+E100403,32,Male,Single,Critical care nurse,6,2,87,3,3,No,16,1,12,3,8,5,No,2
+E100406,24,Female,Married,Critical care nurse,3,1,33,3,3,No,21,1,4,2,2,0,No,3
+E100407,28,Male,Married,Critical care nurse,4,2,43,3,3,No,15,2,5,4,4,0,No,4
+E100409,58,Male,Single,Critical care nurse,10,4,37,3,3,No,13,3,38,2,10,1,No,3
+E100420,25,Male,Single,Critical care nurse,5,3,46,2,3,Yes,11,4,6,3,4,0,Yes,3
+E100426,54,Female,Single,Gerontological nurse,26,4,30,4,4,Yes,12,3,23,3,3,4,No,3
+E100430,37,Male,Single,Critical care nurse,3,3,87,3,4,No,12,1,12,3,3,1,No,3
+E100436,43,Male,Married,Gerontological nurse,26,3,92,3,4,Yes,12,4,25,4,12,4,No,3
+E100438,33,Male,Married,Critical care nurse,22,3,95,3,2,No,13,1,8,4,7,0,No,3
+E100441,31,Male,Married,Critical care nurse,6,2,76,1,3,Yes,18,2,12,2,7,7,Yes,2
+E100452,50,Female,Single,Critical care nurse,12,3,77,3,4,No,11,4,16,3,2,2,No,3
+E100453,31,Female,Married,Critical care nurse,20,2,71,1,3,Yes,11,3,4,3,2,2,Yes,2
+E100454,41,Male,Divorced,Critical care nurse,9,3,96,3,3,Yes,13,3,12,3,7,0,No,3
+E100461,25,Male,Married,Critical care nurse,28,1,41,2,3,No,18,4,6,3,2,2,No,2
+E100482,35,Male,Married,Critical care nurse,1,3,94,3,2,No,13,1,10,3,8,0,No,3
+E100485,32,Female,Single,Critical care nurse,8,2,43,3,4,No,14,4,9,3,8,3,No,2
+E100493,40,Male,Married,Critical care nurse,4,3,67,2,4,No,11,1,15,2,11,2,No,3
+E100506,30,Female,Married,Critical care nurse,5,2,41,3,4,No,12,3,12,3,9,7,No,2
+E100508,38,Female,Single,Critical care nurse,1,1,59,2,4,No,22,3,12,4,3,0,No,4
+E100518,45,Female,Divorced,Critical care nurse,4,3,30,3,1,Yes,11,1,9,4,4,0,No,3
+E100522,46,Female,Divorced,Critical care nurse,1,2,92,3,1,No,25,3,24,3,13,15,No,2
+E100561,29,Female,Married,Critical care nurse,27,2,35,3,4,No,22,4,10,2,4,1,Yes,2
+E100569,32,Male,Married,Critical care nurse,4,4,32,1,4,No,11,3,14,2,8,9,Yes,3
+E100571,27,Female,Single,Critical care nurse,20,4,90,3,3,No,14,4,7,3,7,0,No,3
+E100577,30,Female,Single,Critical care nurse,26,3,52,2,1,No,15,3,9,2,3,0,Yes,3
+E100580,45,Female,Single,Critical care nurse,6,4,57,2,4,No,12,4,23,3,7,12,No,3
+E100581,54,Female,Married,Critical care nurse,3,4,52,3,1,No,14,4,16,3,2,0,No,3
+E100590,29,Female,Married,Critical care nurse,1,2,42,3,4,No,14,4,11,3,10,4,No,2
+E100592,35,Female,Single,Critical care nurse,1,3,92,3,3,No,14,1,10,4,7,0,No,4
+E100611,32,Male,Married,Critical care nurse,26,3,100,3,4,No,18,1,4,3,2,2,No,3
+E100627,29,Male,Divorced,Critical care nurse,20,4,45,3,4,No,14,4,10,3,2,0,No,3
+E100639,38,Male,Married,Critical care nurse,2,4,39,2,4,No,18,4,13,3,7,7,No,3
+E100644,29,Male,Married,Critical care nurse,2,1,78,2,2,No,19,2,10,3,0,0,No,3
+E100656,37,Male,Married,Critical care nurse,6,3,98,3,4,No,14,2,7,4,4,0,No,4
+E100660,38,Female,Divorced,Critical care nurse,7,1,44,4,1,Yes,24,3,8,3,0,7,No,4
+E100665,42,Male,Married,Critical care nurse,1,2,99,3,3,No,25,3,20,3,16,11,No,2
+E100679,26,Male,Single,Critical care nurse,4,4,48,2,4,Yes,12,2,8,3,7,7,Yes,3
+E100682,42,Female,Married,Critical care nurse,26,3,77,3,2,No,14,4,23,4,4,4,No,3
+E100684,35,Male,Married,Critical care nurse,16,3,96,3,2,No,15,3,12,2,9,6,No,3
+E100698,32,Male,Married,Critical care nurse,7,4,91,2,3,No,14,3,13,2,8,4,No,3
+E100714,32,Female,Married,Critical care nurse,8,3,65,2,2,Yes,11,4,13,3,12,11,No,3
+E100715,27,Male,Single,Critical care nurse,2,4,74,3,3,Yes,11,1,5,3,4,0,No,3
+E100716,31,Male,Divorced,Critical care nurse,7,4,73,3,4,No,12,4,13,3,7,1,No,3
+E100723,39,Female,Married,Critical care nurse,3,4,41,3,3,Yes,18,1,12,2,0,0,Yes,3
+E100724,33,Male,Single,Critical care nurse,10,2,46,2,4,No,14,3,9,2,7,0,No,4
+E100727,27,Male,Married,Critical care nurse,1,3,73,3,2,Yes,13,4,6,3,4,1,No,3
+E100731,40,Male,Married,Critical care nurse,1,2,57,1,4,Yes,22,3,6,2,3,0,No,3
+E100734,30,Female,Divorced,Critical care nurse,5,4,30,2,3,No,13,3,10,3,9,1,No,3
+E100736,27,Female,Married,Critical care nurse,8,2,56,3,2,No,18,1,8,3,7,0,No,3
+E100741,29,Female,Divorced,Critical care nurse,10,4,39,2,2,Yes,14,1,7,3,7,1,No,3
+E100747,29,Male,Married,Critical care nurse,2,4,61,3,3,No,14,1,4,2,3,0,No,3
+E100754,26,Male,Married,Critical care nurse,1,3,57,3,3,No,17,2,8,3,7,7,No,3
+E100757,36,Female,Single,Critical care nurse,1,4,45,3,4,No,15,2,7,3,0,0,No,3
+E100759,36,Male,Married,Critical care nurse,3,1,48,2,4,No,11,1,16,3,9,1,No,2
+E100766,41,Male,Single,Critical care nurse,4,1,56,3,2,No,18,3,8,3,7,7,Yes,2
+E100770,40,Male,Married,Critical care nurse,22,3,68,2,3,Yes,12,1,8,3,4,1,Yes,3
+E100776,28,Male,Single,Critical care nurse,9,2,92,3,4,No,16,4,7,3,5,0,No,3
+E100778,51,Female,Married,Critical care nurse,14,3,87,3,4,No,11,3,18,2,7,0,No,3
+E100780,34,Male,Single,Critical care nurse,19,1,67,4,4,Yes,13,2,9,2,2,0,Yes,3
+E100791,36,Male,Married,Critical care nurse,2,2,61,2,3,No,13,2,10,3,9,9,No,2
+E100794,40,Female,Divorced,Critical care nurse,2,4,46,3,2,No,12,3,8,3,4,1,No,3
+E100805,25,Female,Single,Critical care nurse,4,2,99,2,4,Yes,11,2,5,3,4,1,No,2
+E100807,37,Female,Married,Practitioner nurse,25,2,72,3,3,Yes,15,1,15,3,11,10,No,3
+E100809,39,Male,Divorced,Practitioner nurse,1,2,52,3,3,Yes,14,3,21,3,8,1,No,2
+E100811,30,Female,Single,Critical care nurse,12,2,83,3,3,No,11,2,6,3,4,4,No,2
+E100812,41,Male,Married,Critical care nurse,1,2,49,4,1,No,16,3,10,3,7,0,No,3
+E100814,28,Male,Divorced,Practitioner nurse,17,3,79,3,1,No,12,4,10,3,0,1,No,3
+E100838,26,Female,Divorced,Practitioner nurse,23,1,90,3,4,No,22,2,3,1,2,0,No,3
+E100840,30,Male,Married,Practitioner nurse,3,3,53,3,4,No,15,3,9,1,3,1,No,3
+E100845,30,Female,Married,Critical care nurse,22,3,69,3,1,No,11,3,10,3,8,7,No,3
+E100847,50,Male,Married,Practitioner nurse,29,2,88,2,3,No,15,2,28,3,10,15,No,3
+E100853,46,Male,Married,Practitioner nurse,2,1,51,3,3,No,13,3,26,1,2,0,No,3
+E100857,34,Male,Divorced,Practitioner nurse,2,4,62,2,3,No,12,3,14,3,3,5,No,3
+E100858,46,Female,Married,Critical care nurse,10,3,94,2,4,Yes,19,3,15,3,2,1,No,3
+E100859,31,Male,Divorced,Practitioner nurse,9,3,33,3,2,No,25,4,13,4,8,0,No,3
+E100860,33,Male,Married,Practitioner nurse,15,2,56,3,3,Yes,12,4,15,4,6,7,Yes,2
+E100864,35,Male,Married,Practitioner nurse,16,4,72,3,3,Yes,12,3,10,3,7,0,No,3
+E100870,36,Male,Single,Critical care nurse,10,2,32,3,4,No,14,4,10,2,3,9,No,2
+E100871,22,Male,Single,Practitioner nurse,4,3,99,2,3,No,16,3,4,3,2,1,Yes,3
+E100873,48,Female,Married,Critical care nurse,2,2,37,3,4,No,14,1,14,3,7,6,No,2
+E100877,41,Male,Single,Critical care nurse,10,4,56,3,4,No,14,4,16,3,3,1,No,3
+E100878,35,Male,Married,Critical care nurse,1,2,85,3,3,No,11,3,15,3,9,6,No,2
+E100882,31,Male,Single,Critical care nurse,2,2,77,3,4,Yes,13,3,10,4,5,0,No,3
+E100884,45,Male,Married,Critical care nurse,2,4,61,3,2,No,19,2,9,4,7,3,No,3
+E100893,40,Male,Divorced,Critical care nurse,28,3,58,1,1,No,15,3,20,3,0,0,No,3
+E100898,35,Female,Single,Critical care nurse,1,1,80,3,3,No,16,4,5,3,4,0,No,3
+E100899,34,Male,Single,Critical care nurse,21,4,74,4,4,No,12,4,10,3,7,5,No,3
+E100902,46,Female,Married,Practitioner nurse,18,1,86,3,3,No,11,4,28,2,2,1,No,2
+E100916,49,Male,Divorced,Practitioner nurse,18,4,58,2,3,Yes,17,3,31,3,9,0,No,3
+E100919,26,Male,Married,Critical care nurse,28,1,66,3,2,No,20,4,6,4,3,1,No,3
+E100925,24,Female,Married,Practitioner nurse,7,1,55,3,3,Yes,16,4,6,3,3,1,Yes,2
+E100928,31,Male,Divorced,Critical care nurse,13,2,46,3,1,No,17,3,9,1,1,1,Yes,3
+E100931,31,Male,Divorced,Critical care nurse,6,1,66,4,4,No,22,4,13,4,7,5,No,2
+E100934,37,Male,Married,Critical care nurse,2,4,75,3,3,Yes,11,3,17,2,0,1,No,3
+E100941,43,Male,Divorced,Practitioner nurse,9,4,72,3,3,Yes,13,2,10,3,7,4,No,3
+E100942,48,Female,Married,Practitioner nurse,1,4,40,2,1,No,11,1,21,1,2,0,No,3
+E100949,44,Male,Married,Practitioner nurse,3,4,35,3,4,Yes,12,1,26,4,2,0,No,3
+E100961,34,Male,Married,Practitioner nurse,1,2,42,3,4,No,12,4,10,2,9,8,No,3
+E100968,29,Female,Married,Critical care nurse,3,2,62,3,3,No,14,1,6,2,0,1,No,3
+E100969,35,Male,Single,Practitioner nurse,6,2,82,1,4,No,13,2,17,3,11,11,No,3
+E100979,20,Male,Single,Practitioner nurse,10,4,32,3,3,Yes,11,4,1,3,0,1,Yes,3
+E100980,33,Male,Single,Practitioner nurse,3,1,70,3,1,Yes,11,1,10,3,8,9,Yes,3
+E100985,25,Male,Married,Critical care nurse,8,4,57,4,2,No,22,3,4,3,2,1,No,4
+E100987,38,Female,Single,Critical care nurse,7,4,46,2,4,No,20,1,8,3,7,0,No,4
+E100990,48,Male,Married,Critical care nurse,2,2,56,4,2,No,12,4,12,3,2,2,No,3
+E100992,27,Female,Divorced,Critical care nurse,3,4,71,4,4,Yes,20,2,6,3,5,0,No,4
+E100993,37,Male,Single,Practitioner nurse,10,4,80,4,4,No,17,1,4,3,0,0,No,3
+E100994,50,Male,Married,Practitioner nurse,28,4,74,4,3,Yes,11,3,20,3,8,3,No,3
+E100998,24,Female,Single,Critical care nurse,3,1,65,3,3,No,14,1,4,3,2,2,Yes,2
